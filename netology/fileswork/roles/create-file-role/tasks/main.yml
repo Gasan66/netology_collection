@@ -1,0 +1,5 @@
+---
+- name: create file
+  netology.fileswork.netology_module:
+    path: "{ { path } }"
+    content: "{{content}}"

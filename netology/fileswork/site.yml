@@ -1,0 +1,5 @@
+---
+- name: test role module
+  hosts: localhost
+  roles:
+    - create-file-role
